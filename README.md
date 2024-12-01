@@ -1,2 +1,2 @@
-# Invoice_System
+# Invoice_System_using_RESTful_API
 This project is to create a simple invoice system that allows creating invoices, paying invoices, and processing overdue invoices by implementing RESful API. This endpoint should process all pending invoices that are overdue. If an invoice is partially paid, the invoice should be marked as paid, and a new invoice should be created with the remaining amount plus the late fee, and a new overdue. If an invoice is not paid at all, the invoice should be marked as void, a new invoice should be created with the amount plus the late fee, and a new overdue.
